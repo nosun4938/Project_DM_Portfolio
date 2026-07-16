@@ -1,0 +1,92 @@
+{
+  "creatures": [
+    {
+      "DataID": 201001,
+      "DescriptionTextID": "Hero",
+      "PrefabLabel": "Hero",
+      "Mass": 1.0,
+      "MaxHp": 100.0,
+      "Atk": 25.0,
+      "AtkRange": 1.0,
+      "Def": 0.0,
+      "MoveSpeed": 5.0,
+      "Money": 0.0,
+      "HpRate": 1.0,
+      "AtkRate": 1.0,
+      "DefRate": 1.0,
+      "MoveSpeedRate": 1.0,
+      "AnimatorName": "HeroAnimationController",
+      "DropItemID": 40001,
+
+      "WoodWeaponId": 2001,
+      "FireWeaponId": 0,
+      "EarthWeaponId": 0,
+      "MetalWeaponId": 0,
+      "WaterWeaponId": 0,
+
+      "AirControlRatio": 1.0,
+      "Acceleration": 0.5,
+      "Deceleration": 0.8,
+      "JumpForce": 10.0,
+      "JumpCutMultiplier": 2.0,
+      "MaxJumpCount": 2,
+      "CoyoteTime": 0.2,
+      "JumpBufferTime": 0.2,
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 0.4
+        },
+        "Size": {
+          "x": 0.315,
+          "y": 0.8
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataID": 301001,
+      "DescriptionTextID": "Monster",
+      "PrefabLabel": "Monster",
+      "Mass": 50.0,
+      "MaxHp": 100.0,
+      "Atk": 25.0,
+      "AtkRange": 1.0,
+      "Def": 0.0,
+      "MoveSpeed": 3.0,
+      "Money": 0.0,
+      "HpRate": 1.0,
+      "AtkRate": 1.0,
+      "DefRate": 1.0,
+      "MoveSpeedRate": 1.0,
+      "AnimatorName": "HeroAnimationController",
+      "DropItemID": 40001,
+
+      "WoodWeaponId": 2001,
+      "FireWeaponId": 0,
+      "EarthWeaponId": 0,
+      "MetalWeaponId": 0,
+      "WaterWeaponId": 0,
+
+      "AirControlRatio": 1.0,
+      "Acceleration": 0.5,
+      "Deceleration": 0.8,
+      "JumpForce": 10.0,
+      "JumpCutMultiplier": 2.0,
+      "MaxJumpCount": 2,
+      "CoyoteTime": 0.2,
+      "JumpBufferTime": 0.2,
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 0.4
+        },
+        "Size": {
+          "x": 0.315,
+          "y": 0.8
+        },
+        "TargetLayer": "Enemy"
+      }
+    }
+  ]
+}

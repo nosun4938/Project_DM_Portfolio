@@ -1,0 +1,183 @@
+{
+  "maps": [
+    {
+      "DataID": 1000001,
+      "DescriptionTextID": "DevMap",
+      "PrefabLabel": "DevMap",
+      "Background": "Background",
+
+      "SpawnPoints": [
+        {
+          "SpawnPointID": "DevMap_1",
+          "ObjectType": "Monster",
+          "DataId": 302001,
+          "Position": {
+            "x": 48,
+            "y": 0
+          }
+        },
+        {
+          "SpawnPointID": "DevMap_2",
+          "ObjectType": "Monster",
+          "DataId": 302001,
+          "Position": {
+            "x": 70,
+            "y": 0
+          }
+        },
+        {
+          "SpawnPointID": "DevMap_3",
+          "ObjectType": "Monster",
+          "DataId": 303001,
+          "Position": {
+            "x": 48,
+            "y": 19
+          }
+        },
+        {
+          "SpawnPointID": "DevMap_4",
+          "ObjectType": "Monster",
+          "DataId": 302001,
+          "Position": {
+            "x": 73,
+            "y": 22
+          }
+        },
+        {
+          "SpawnPointID": "DevMap_5",
+          "ObjectType": "Monster",
+          "DataId": 303001,
+          "Position": {
+            "x": 20,
+            "y": 33
+          }
+        }
+      ]
+    },
+    {
+      "DataID": 1000002,
+      "DescriptionTextID": "BossMap",
+      "PrefabLabel": "BossMap",
+      "Background": "Background",
+
+      "SpawnPoints": [
+        {
+          "SpawnPointID": "BossMap_1",
+          "ObjectType": "Monster",
+          "DataId": 300001,
+          "Position": {
+            "x": 9,
+            "y": 0
+          }
+        },
+        {
+          "SpawnPointID": "BossMap_2",
+          "ObjectType": "Artifact",
+          "DataId": 102345,
+          "Position": {
+            "x": 34,
+            "y": 0
+          }
+        },
+        {
+          "SpawnPointID": "BossMap_3",
+          "ObjectType": "Boss",
+          "DataId": 505001,
+          "Position": {
+            "x": 64,
+            "y": 0
+          }
+        }
+      ]
+    },
+    {
+      "DataID": 1000011,
+      "DescriptionTextID": "BoxMap1_Obtained",
+      "PrefabLabel": "BoxMap1_Obtained",
+      "Background": "Background",
+
+      "SpawnPoints": [
+      ]
+    },
+    {
+      "DataID": 1000012,
+      "DescriptionTextID": "BoxMap2_Jump",
+      "PrefabLabel": "BoxMap2_Jump",
+      "Background": "Background",
+
+      "SpawnPoints": []
+    },
+    {
+      "DataID": 1000013,
+      "DescriptionTextID": "BoxMap3_NormalAttack",
+      "PrefabLabel": "BoxMap3_NormalAttack",
+      "Background": "Background",
+
+      "SpawnPoints": [
+        {
+          "SpawnPointID": "BoxMap3_1",
+          "ObjectType": "Artifact",
+          "DataId": 102345,
+          "Position": {
+            "x": 40,
+            "y": 0
+          }
+        }
+      ]
+    },
+    {
+      "DataID": 1000014,
+      "DescriptionTextID": "BoxMap4_Monster",
+      "PrefabLabel": "BoxMap4_Monster",
+      "Background": "Background",
+
+      "SpawnPoints": [
+        {
+          "SpawnPointID": "BoxMap4_1",
+          "ObjectType": "Monster",
+          "DataId": 302001,
+          "Position": {
+            "x": 17,
+            "y": 0
+          }
+        }
+      ]
+    },
+    {
+      "DataID": 1000015,
+      "DescriptionTextID": "BoxMap5_SpecialAttack",
+      "PrefabLabel": "BoxMap5_SpecialAttack",
+      "Background": "Background",
+
+      "SpawnPoints": [
+        {
+          "SpawnPointID": "BoxMap5_1",
+          "ObjectType": "Artifact",
+          "DataId": 102345,
+          "Position": {
+            "x": 28,
+            "y": 0
+          }
+        }
+      ]
+    },
+    {
+      "DataID": 1000016,
+      "DescriptionTextID": "BoxMap6_Bench",
+      "PrefabLabel": "BoxMap6_Bench",
+      "Background": "Background",
+
+      "SpawnPoints": [
+        {
+          "SpawnPointID": "BoxMap6_1",
+          "ObjectType": "Monster",
+          "DataId": 303001,
+          "Position": {
+            "x": 32,
+            "y": -1
+          }
+        }
+      ]
+    }
+  ]
+}

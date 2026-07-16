@@ -1,0 +1,20 @@
+{
+  "cameras": [
+    {
+      "DataId": 101,
+      "Name": "Boss_Axe",
+      "Duration": 0.5,
+      "ExitUnlock": true,
+      "VectorX": 222,
+      "VectorY": 22
+    },
+    {
+      "DataId": 100,
+      "Name": "BoxMap",
+      "Duration": 0.5,
+      "ExitUnlock": true,
+      "VectorX": 86,
+      "VectorY": 22
+    }
+  ]
+}

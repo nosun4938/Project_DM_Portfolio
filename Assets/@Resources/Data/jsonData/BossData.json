@@ -1,0 +1,49 @@
+{
+  "bosses": [
+    {
+      "DataID": 505001,
+      "DescriptionTextID": "Boss",
+      "PrefabLabel": "Boss",
+      "AnimatorName": "AxeBossAnimationController",
+
+      "Mass": 100.0,
+      "MaxHp": 250.0,
+      "MoveSpeed": 5.0,
+      "Money": 0.0,
+      "JumpForce": 10.0,
+      "CoyoteTime": 0.2,
+      "ReactionSpeed": 0.05,
+
+      "DropItemId": 40001,
+      "WoodWeaponId": 0,
+      "FireWeaponId": 0,
+      "EarthWeaponId": 0,
+      "MetalWeaponId": 5001,
+      "WaterWeaponId": 0,
+      "BarrierId": 0,
+
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 3.5
+        },
+        "Size": {
+          "x": 5,
+          "y": 7
+        },
+        "TargetLayer": "Enemy"
+      },
+      "HitCircle": {
+        "Offset": {
+          "x": 0,
+          "y": 5
+        },
+        "Size": {
+          "x": 6,
+          "y": 10
+        },
+        "TargetLayer": "Enemy"
+      }
+    }
+  ]
+}

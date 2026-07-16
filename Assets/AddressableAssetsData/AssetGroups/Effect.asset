@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Effect
+  m_EditorClassIdentifier: 
+  m_GroupName: Effect
+  m_GUID: a43ccaa908fa4aa4d9a996c1b288e338
+  m_SerializeEntries:
+  - m_GUID: 356f8f360c076164b96f38465e93477e
+    m_Address: HitEffect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 397846c646a48184b9968e2d209bdb9d
+    m_Address: ArmorBreak
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4aa4c5d4c22152e4ea4019acd80c8085
+    m_Address: SlashEffect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55abe7cdb9871134b91f5f5af6e7c2ee
+    m_Address: ArmorIconCrash
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7da749334cbbe044f94fa9261fd7ae75
+    m_Address: SlashCrashEffect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb173245531e4c04fb54c4c972d5effa
+    m_Address: CrashEffect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eed1deb5fc5dfab42b223f5e8330b527
+    m_Address: ArmorCrash
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 16538464c6130dd47bbfa83eaf1e13ba, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d03b14de93b27b34084368067648d163, type: 2}
+    - {fileID: 11400000, guid: 367cd4b9e6794bf4dbc9577e844a9bba, type: 2}

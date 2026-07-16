@@ -1,0 +1,136 @@
+{
+  "monsters": [
+    {
+      "DataID": 300001,
+      "DescriptionTextID": "Monster",
+      "PrefabLabel": "Monster",
+      "AnimatorName": "MonsterAnimationController",
+
+      "Mass": 10000.0,
+      "MaxHp": 99999999.0,
+      "MoveSpeed": 0.0,
+      "Money": 0.0,
+      "JumpForce": 0.0,
+      "CoyoteTime": 0.0,
+
+      "DropItemId": 0,
+      "WoodWeaponId": 0,
+      "FireWeaponId": 0,
+      "EarthWeaponId": 0,
+      "MetalWeaponId": 0,
+      "WaterWeaponId": 0,
+      "BarrierId": 0,
+
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 4.5
+        },
+        "Size": {
+          "x": 6.5,
+          "y": 9
+        },
+        "TargetLayer": "Enemy"
+      },
+      "HitCircle": {
+        "Offset": {
+          "x": 0,
+          "y": 3.5
+        },
+        "Size": {
+          "x": 3,
+          "y": 7
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataID": 302001,
+      "DescriptionTextID": "Monster",
+      "PrefabLabel": "Monster",
+      "AnimatorName": "MonsterAnimationController",
+
+      "Mass": 50.0,
+      "MaxHp": 20.0,
+      "MoveSpeed": 10.0,
+      "Money": 0.0,
+      "JumpForce": 10.0,
+      "CoyoteTime": 0.2,
+
+      "DropItemId": 40001,
+      "WoodWeaponId": 2001,
+      "FireWeaponId": 0,
+      "EarthWeaponId": 0,
+      "MetalWeaponId": 0,
+      "WaterWeaponId": 0,
+      "BarrierId": 0,
+
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 0.125
+        },
+        "Size": {
+          "x": 0.125,
+          "y": 0.25
+        },
+        "TargetLayer": "Enemy"
+      },
+      "HitCircle": {
+        "Offset": {
+          "x": 0,
+          "y": 3.5
+        },
+        "Size": {
+          "x": 3,
+          "y": 7
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataID": 303001,
+      "DescriptionTextID": "Monster",
+      "PrefabLabel": "Monster",
+      "AnimatorName": "MonsterAnimationController",
+
+      "Mass": 50.0,
+      "MaxHp": 100.0,
+      "MoveSpeed": 15.0,
+      "Money": 0.0,
+      "JumpForce": 10.0,
+      "CoyoteTime": 0.2,
+
+      "DropItemId": 40001,
+      "WoodWeaponId": 0,
+      "FireWeaponId": 3001,
+      "EarthWeaponId": 0,
+      "MetalWeaponId": 0,
+      "WaterWeaponId": 0,
+      "BarrierId": 0,
+
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 0.125
+        },
+        "Size": {
+          "x": 0.125,
+          "y": 0.25
+        },
+        "TargetLayer": "Enemy"
+      },
+      "HitCircle": {
+        "Offset": {
+          "x": 0,
+          "y": 3.5
+        },
+        "Size": {
+          "x": 3,
+          "y": 7
+        },
+        "TargetLayer": "Enemy"
+      }
+    }
+  ]
+}

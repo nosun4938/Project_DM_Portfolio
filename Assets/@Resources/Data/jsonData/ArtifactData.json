@@ -1,0 +1,48 @@
+{
+  "artifacts": [
+    {
+      "DataID": 102345,
+      "DescriptionTextID": "Artifact",
+      "PrefabLabel": "Artifact",
+      "AnimatorName": "BarrierAnimationController",
+
+      "Mass": 10000.0,
+      "MaxHp": 1.0,
+      "MoveSpeed": 0.0,
+      "Money": 0.0,
+      "JumpForce": 0.0,
+      "CoyoteTime": 0.0,
+
+      "DropItemId": 0,
+      "WoodWeaponId": 0,
+      "FireWeaponId": 0,
+      "EarthWeaponId": 0,
+      "MetalWeaponId": 0,
+      "WaterWeaponId": 0,
+      "BarrierId": 2345,
+
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 4.5
+        },
+        "Size": {
+          "x": 6.5,
+          "y": 9
+        },
+        "TargetLayer": "Enemy"
+      },
+      "HitCircle": {
+        "Offset": {
+          "x": 0,
+          "y": 9.0
+        },
+        "Size": {
+          "x": 8,
+          "y": 18
+        },
+        "TargetLayer": "Enemy"
+      }
+    }
+  ]
+}

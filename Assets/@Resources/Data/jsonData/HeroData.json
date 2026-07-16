@@ -1,0 +1,48 @@
+{
+  "heroes": [
+    {
+      "DataID": 202001,
+      "DescriptionTextID": "Hero",
+      "PrefabLabel": "Hero",
+      "AnimatorName": "PedroAnimationController",
+
+      "Mass": 1.0,
+      "MaxHp": 100.0,
+      "MoveSpeed": 40.0,
+      "Money": 0.0,
+      "JumpForce": 40.0,
+      "CoyoteTime": 0.2,
+
+      "DropItemId": 40001,
+      "WoodWeaponId": 2001,
+      "FireWeaponId": 0,
+      "EarthWeaponId": 0,
+      "MetalWeaponId": 0,
+      "WaterWeaponId": 0,
+      "BarrierId": 0,
+
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 3.5
+        },
+        "Size": {
+          "x": 3,
+          "y": 7
+        },
+        "TargetLayer": "Enemy"
+      },
+      "HitCircle": {
+        "Offset": {
+          "x": 0.25,
+          "y": 3.25
+        },
+        "Size": {
+          "x": 2,
+          "y": 7
+        },
+        "TargetLayer": "Enemy"
+      }
+    }
+  ]
+}

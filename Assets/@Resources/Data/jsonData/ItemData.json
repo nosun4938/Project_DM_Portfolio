@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "DataID": 900001,
+      "DescriptionTextID": "CirculationRing",
+      "DescriptionText": "You can read the memory of the Earth.",
+      "ItemType": "Equipment",
+      "PrefabLabel": "CirculationRing",
+      "AnimatorName": "ItemAnimationController",
+
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "x": 6.0,
+          "y": 6.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    }
+  ]
+}

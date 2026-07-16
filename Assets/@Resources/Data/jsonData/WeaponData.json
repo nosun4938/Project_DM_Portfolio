@@ -1,0 +1,333 @@
+{
+  "weapons": [
+    {
+      "DataID": 2345,
+      "Name": "Barrier",
+      "ClassName": "Barrier",
+      "Description": "Barrier",
+      "SkillC": 0,
+      "SkillShiftMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "ArtifactSkill": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillZMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "ArtifactSkill": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillXMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "ArtifactSkill": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillAMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "ArtifactSkill": {
+          "Idle": 44444,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillSMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "ArtifactSkill": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillDMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "ArtifactSkill": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillFMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "ArtifactSkill": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        }
+      }
+    },
+    {
+      "DataID": 2001,
+      "Name": "Sword",
+      "ClassName": "Sword_Wood",
+      "Description": "Wood",
+      "SkillC": 10001,
+      "SkillShiftMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "HeroSkill": {
+          "Idle": 20001,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillZMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "HeroSkill": {
+          "Idle": 20101,
+          "Jump": 20111,
+          "Dash": 20121
+        },
+        "MonsterSkill": {
+          "Idle": 23101,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillXMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "HeroSkill": {
+          "Idle": 20201,
+          "Jump": 20211,
+          "Dash": 0
+        }
+      },
+      "SkillAMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "HeroSkill": {
+          "Idle": 20301,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillSMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "HeroSkill": {
+          "Idle": 20401,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillDMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillFMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        }
+      }
+    },
+    {
+      "DataID": 3001,
+      "Name": "Dagger",
+      "ClassName": "Dagger_Fire",
+      "Description": "Fire",
+      "SkillC": 0,
+      "SkillShiftMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillZMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "MonsterSkill": {
+          "Idle": 30101,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillXMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "MonsterSkill": {
+          "Idle": 30201,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillAMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillSMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillDMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillFMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        }
+      }
+    },
+    {
+      "DataID": 5001,
+      "Name": "BattleAxe",
+      "ClassName": "Axe_Metal",
+      "Description": "Metal",
+      "SkillC": 10002,
+      "SkillShiftMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "BossSkill": {
+          "Idle": 50001,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillZMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "BossSkill": {
+          "Idle": 50101,
+          "Jump": 0,
+          "Dash": 50121
+        }
+      },
+      "SkillXMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "BossSkill": {
+          "Idle": 50201,
+          "Jump": 50211,
+          "Dash": 0
+        }
+      },
+      "SkillAMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "BossSkill": {
+          "Idle": 50301,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillSMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "BossSkill": {
+          "Idle": 50401,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillDMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        },
+        "BossSkill": {
+          "Idle": 50501,
+          "Jump": 0,
+          "Dash": 0
+        }
+      },
+      "SkillFMap": {
+        "Default": {
+          "Idle": 0,
+          "Jump": 0,
+          "Dash": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,903 @@
+{
+  "skills": [
+    {
+      "DataId": 10001,
+      "Name": "공중회피",
+      "ClassName": "Sword_C_Airborne",
+      "Description": "공중회피",
+      "IconLabel": "Airial_Evasion",
+      "SkillSound": "Dash",
+      "AnimName": "Wood_Airial_Evasion_Astart",
+      "ComboCount": 0,
+      "CoolTime": 10,
+      "Damage": 0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 100.0,
+      "SuperArmorBreakLevel": 0,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "StartFrame": 0,
+      "EndFrame": 4,
+      "MoveRange": -8,
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "x": 0,
+          "y": 0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 10002,
+      "Name": "공중회피",
+      "ClassName": "Axe_C_Airborne",
+      "Description": "공중회피",
+      "IconLabel": "Airial_Evasion",
+      "SkillSound": "Dash",
+      "AnimName": "Metal_Airial_Evasion",
+      "ComboCount": 0,
+      "CoolTime": 10,
+      "Damage": 0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 100.0,
+      "SuperArmorBreakLevel": 0,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "StartFrame": 0,
+      "EndFrame": 0,
+      "MoveRange": 0,
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "x": 0,
+          "y": 0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20001,
+      "Name": "검대쉬",
+      "ClassName": "Sword_Shift",
+      "Description": "검대쉬",
+      "IconLabel": "Dash",
+      "SkillSound": "Dash",
+      "AnimName": "Wood_Dash_Astart",
+      "ComboCount": 0,
+      "CoolTime": 3.0,
+      "Damage": 0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 100.0,
+      "SuperArmorBreakLevel": 0,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "StartFrame": 0,
+      "EndFrame": 4,
+      "MoveRange": 20,
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "x": 0,
+          "y": 0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20101,
+      "Name": "Sword_Z_Idle",
+      "ClassName": "Sword_Z_Idle",
+      "Description": "Sword_Z_Idle",
+      "IconLabel": "TripleAtk_First",
+      "SkillSound": "QuickSwing",
+      "AnimName": "TripleAtk_First_Astart",
+      "ComboCount": 2,
+      "CoolTime": 0.1,
+      "Damage": 5.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 1,
+      "StartFrame": 0,
+      "EndFrame": 2,
+      "MoveRange": 6,
+      "HitBox": {
+        "Offset": {
+          "x": 4.0,
+          "y": 4.0
+        },
+        "Size": {
+          "x": 12.0,
+          "y": 8.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20102,
+      "Name": "Sword_Z_Idle_Second",
+      "ClassName": "Sword_Z_Idle_Second",
+      "Description": "Sword_Z_Idle_Second",
+      "IconLabel": "TripleAtk_Second",
+      "SkillSound": "QuickSwing",
+      "AnimName": "TripleAtk_Second_Astart",
+      "ComboCount": 1,
+      "CoolTime": 0.1,
+      "Damage": 5.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "StartFrame": 0,
+      "EndFrame": 2,
+      "MoveRange": 4,
+      "HitBox": {
+        "Offset": {
+          "x": 2.0,
+          "y": 6.0
+        },
+        "Size": {
+          "x": 12.0,
+          "y": 12.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20103,
+      "Name": "Sword_Z_Idle_Third",
+      "ClassName": "Sword_Z_Idle_Third",
+      "Description": "Sword_Z_Idle_Third",
+      "IconLabel": "TripleAtk_Third",
+      "SkillSound": "Straight",
+      "AnimName": "TripleAtk_Third_Astart",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 10.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 2.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 1,
+      "StartFrame": 0,
+      "EndFrame": 4,
+      "MoveRange": 8,
+      "HitBox": {
+        "Offset": {
+          "x": 6.0,
+          "y": 4.0
+        },
+        "Size": {
+          "x": 16.0,
+          "y": 8.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20111,
+      "Name": "검공격-Jump",
+      "ClassName": "Sword_Z_Jump",
+      "Description": "검공격-Jump",
+      "IconLabel": "AirSlash",
+      "SkillSound": "QuickSwing",
+      "AnimName": "AirSlash_Astart",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 5.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "StartFrame": 0,
+      "EndFrame": 0,
+      "MoveRange": 0,
+      "HitBox": {
+        "Offset": {
+          "x": 6.0,
+          "y": 2.0
+        },
+        "Size": {
+          "x": 12.0,
+          "y": 6.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20121,
+      "Name": "Sword_Z_Dash",
+      "ClassName": "Sword_Z_Dash",
+      "Description": "Sword_Z_Dash",
+      "IconLabel": "DashAtk",
+      "SkillSound": "Straight",
+      "AnimName": "DashAtk_Astart",
+      "ComboCount": 0,
+      "CoolTime": 1.0,
+      "Damage": 10.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 1,
+      "StartFrame": 0,
+      "EndFrame": 4,
+      "MoveRange": 8,
+      "HitBox": {
+        "Offset": {
+          "x": 6.0,
+          "y": 4.0
+        },
+        "Size": {
+          "x": 16.0,
+          "y": 8.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20201,
+      "Name": "Sword_X_Idle",
+      "ClassName": "Sword_X_Idle",
+      "Description": "Sword_X_Idle",
+      "IconLabel": "ShieldCombo_First",
+      "SkillSound": "Swing",
+      "AnimName": "ShieldCombo_First_Astart",
+      "ComboCount": 1,
+      "CoolTime": 3,
+      "Damage": 10.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 3.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 0,
+      "StartFrame": 7,
+      "EndFrame": 9,
+      "MoveRange": 4,
+      "HitBox": {
+        "Offset": {
+          "x": 2.0,
+          "y": 4.0
+        },
+        "Size": {
+          "x": 8.0,
+          "y": 8.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20202,
+      "Name": "Sword_X_Idle_Second",
+      "ClassName": "Sword_X_Idle_Second",
+      "Description": "Sword_X_Idle_Second",
+      "IconLabel": "ShieldCombo_Second",
+      "SkillSound": "QuickSwing",
+      "AnimName": "ShieldCombo_Second_Astart",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 10.0,
+      "HitType": "Slash",
+      "SuperArmorLevel": 3.0,
+      "SuperArmorBreakLevel": 3.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 1,
+      "StartFrame": 0,
+      "EndFrame": 4,
+      "MoveRange": 8,
+      "HitBox": {
+        "Offset": {
+          "x": 3.0,
+          "y": 4.0
+        },
+        "Size": {
+          "x": 24.0,
+          "y": 8.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20211,
+      "Name": "Sword_X_Jump",
+      "ClassName": "Sword_X_Jump",
+      "Description": "Sword_X_Jump",
+      "IconLabel": "AirAtk",
+      "SkillSound": "QuickSwing",
+      "AnimName": "AirAtk_Astart",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 10.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 2.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 1,
+      "StartFrame": 3,
+      "EndFrame": 6,
+      "MoveRange": 100,
+      "HitBox": {
+        "Offset": {
+          "x": 4.0,
+          "y": 4.0
+        },
+        "Size": {
+          "x": 10.0,
+          "y": 8.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20301,
+      "Name": "Sword_A_Idle",
+      "ClassName": "Sword_A_Idle",
+      "Description": "Sword_A_Idle",
+      "IconLabel": "DeepStraight_First",
+      "SkillSound": "Straight",
+      "AnimName": "DeepStraight_First_Astart",
+      "ComboCount": 1,
+      "CoolTime": 3,
+      "Damage": 10.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 2.0,
+      "SuperArmorBreakLevel": 2.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 0,
+      "StartFrame": 4,
+      "EndFrame": 7,
+      "MoveRange": 16,
+      "HitBox": {
+        "Offset": {
+          "x": 6.0,
+          "y": 6.0
+        },
+        "Size": {
+          "x": 20.0,
+          "y": 12.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20302,
+      "Name": "Sword_A_Idle_Second",
+      "ClassName": "Sword_A_Idle_Second",
+      "Description": "Sword_A_Idle_Second",
+      "IconLabel": "DeepStraight_Second",
+      "SkillSound": "DubbleSpin",
+      "AnimName": "DeepStraight_Second_Astart",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 10.0,
+      "HitType": "Slash",
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 2.01,
+      "AttackType": "Airborne",
+      "ShoveAttck": 0,
+      "StartFrame": 1,
+      "EndFrame": 6,
+      "MoveRange": 12,
+      "HitBox": {
+        "Offset": {
+          "x": 0.0,
+          "y": 9.0
+        },
+        "Size": {
+          "x": 18.0,
+          "y": 18.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20401,
+      "Name": "Sword_S_Idle",
+      "ClassName": "Sword_S_Idle",
+      "Description": "Sword_S_Idle",
+      "IconLabel": "TempestSlash",
+      "SkillSound": "DubbleSpin",
+      "AnimName": "TempestSlash_Astart",
+      "ComboCount": 0,
+      "CoolTime": 10,
+      "Damage": 10.0,
+      "HitType": "Slash",
+      "SuperArmorLevel": 3.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 0,
+      "StartFrame": 3,
+      "EndFrame": 9,
+      "MoveRange": 8,
+      "HitBox": {
+        "Offset": {
+          "x": 3.0,
+          "y": 6.0
+        },
+        "Size": {
+          "x": 22.0,
+          "y": 12.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 23101,
+      "Name": "Sword_Z_Idle",
+      "ClassName": "Sword_Z_Idle",
+      "Description": "Sword_Z_Idle",
+      "IconLabel": "NormalAtk",
+      "SkillSound": "QuickSwing",
+      "AnimName": "NormalAtk_Astart",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 5.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "StartFrame": 0,
+      "EndFrame": 0,
+      "MoveRange": 0,
+      "HitBox": {
+        "Offset": {
+          "x": 4.5,
+          "y": 6.0
+        },
+        "Size": {
+          "x": 9.0,
+          "y": 12.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 30101,
+      "Name": "Dagger_Z_Idle",
+      "ClassName": "Dagger_Z_Idle",
+      "Description": "Dagger_Z_Idle",
+      "IconLabel": "DoubleSlash",
+      "SkillSound": "QuickSwing",
+      "AnimName": "DoubleSlash_Astart",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 5.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "StartFrame": 0,
+      "EndFrame": 0,
+      "MoveRange": 0,
+      "HitBox": {
+        "Offset": {
+          "x": 3.5,
+          "y": 4.0
+        },
+        "Size": {
+          "x": 10.0,
+          "y": 8.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 30201,
+      "Name": "Dagger_X_Idle",
+      "ClassName": "Dagger_X_Idle",
+      "Description": "Dagger_X_Idle",
+      "IconLabel": "DashCross",
+      "SkillSound": "QuickSwing",
+      "AnimName": "DashCross_Astart",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 5.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Airborne",
+      "ShoveAttck": 0,
+      "StartFrame": 5,
+      "EndFrame": 7,
+      "MoveRange": 8,
+      "HitBox": {
+        "Offset": {
+          "x": 0.5,
+          "y": 4.0
+        },
+        "Size": {
+          "x": 13.0,
+          "y": 8.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 44444,
+      "Name": "땅결계",
+      "ClassName": "Earth_Barrier",
+      "Description": "땅결계",
+      "IconLabel": "Earth_Barrier",
+      "SkillSound": "HeavyQuickSwing",
+      "AnimName": "BarrierExposion",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 1,
+      "HitType": "Hit",
+      "SuperArmorLevel": 0.0,
+      "SuperArmorBreakLevel": 10.0,
+      "AttackType": "Airborne",
+      "ShoveAttck": 3,
+      "StartFrame": 0,
+      "EndFrame": 4,
+      "MoveRange": 0,
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "x": 20,
+          "y": 20
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 50001,
+      "Name": "Axe_Shift",
+      "ClassName": "Axe_Shift",
+      "Description": "Axe_Shift",
+      "IconLabel": "BackDash",
+      "SkillSound": "Dash",
+      "AnimName": "Metal_BackDash_Astart",
+      "ComboCount": 0,
+      "CoolTime": 3.0,
+      "Damage": 0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 100.0,
+      "SuperArmorBreakLevel": 0,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "StartFrame": 4,
+      "EndFrame": 8,
+      "MoveRange": -24,
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "x": 0,
+          "y": 0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 50101,
+      "Name": "도끼공격-Idle",
+      "ClassName": "Axe_Z_Idle",
+      "Description": "도끼공격-Idle",
+      "IconLabel": "TripleSlash",
+      "SkillSound": "HeavyQuickSwing",
+      "AnimName": "TripleSlash_First_Astart",
+      "ComboCount": 2,
+      "CoolTime": 0.1,
+      "Damage": 5.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 3.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "StartFrame": 0,
+      "EndFrame": 0,
+      "MoveRange": 0,
+      "HitBox": {
+        "Offset": {
+          "x": 12.0,
+          "y": 8.0
+        },
+        "Size": {
+          "x": 24.0,
+          "y": 16.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 50102,
+      "Name": "Axe_Z_Idle_Second",
+      "ClassName": "Axe_Z_Idle_Second",
+      "Description": "Axe_Z_Idle_Second",
+      "IconLabel": "TripleSlash_Second",
+      "SkillSound": "HeavyQuickSwing",
+      "AnimName": "TripleSlash_Second_Astart",
+      "ComboCount": 1,
+      "CoolTime": 0.1,
+      "Damage": 5.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 3.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "StartFrame": 0,
+      "EndFrame": 0,
+      "MoveRange": 0,
+      "HitBox": {
+        "Offset": {
+          "x": 9.0,
+          "y": 6.0
+        },
+        "Size": {
+          "x": 26.0,
+          "y": 12.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 50103,
+      "Name": "Axe_Z_Idle_Third",
+      "ClassName": "Axe_Z_Idle_Third",
+      "Description": "Axe_Z_Idle_Third",
+      "IconLabel": "TripleSlash_Third",
+      "SkillSound": "HeavySwing",
+      "AnimName": "TripleSlash_Third_Astart",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 5.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 3.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 0,
+      "StartFrame": 0,
+      "EndFrame": 0,
+      "MoveRange": 0,
+      "HitBox": {
+        "Offset": {
+          "x": 4.0,
+          "y": 6.0
+        },
+        "Size": {
+          "x": 32.0,
+          "y": 12.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 50121,
+      "Name": "Axe_Z_Dash",
+      "ClassName": "Axe_Z_Dash",
+      "Description": "Axe_Z_Dash",
+      "IconLabel": "DashCrash",
+      "SkillSound": "HeavySwing",
+      "AnimName": "DashCrash_Astart",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 10.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 3.0,
+      "SuperArmorBreakLevel": 3.01,
+      "AttackType": "Airborne",
+      "ShoveAttck": 1,
+      "StartFrame": 5,
+      "EndFrame": 6,
+      "MoveRange": 24,
+      "HitBox": {
+        "Offset": {
+          "x": 20.0,
+          "y": 6.0
+        },
+        "Size": {
+          "x": 20.0,
+          "y": 12.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 50201,
+      "Name": "Axe_X_Idle",
+      "ClassName": "Axe_X_Idle",
+      "Description": "Axe_X_Idle",
+      "IconLabel": "StompAtk",
+      "SkillSound": "Stagger",
+      "AnimName": "StompAtk_Astart",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 10.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 3.0,
+      "SuperArmorBreakLevel": 3.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 1,
+      "StartFrame": 0,
+      "EndFrame": 0,
+      "MoveRange": 0,
+      "HitBox": {
+        "Offset": {
+          "x": 2.0,
+          "y": 6.0
+        },
+        "Size": {
+          "x": 36.0,
+          "y": 12.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 50211,
+      "Name": "Axe_X_Jump",
+      "ClassName": "Axe_X_Jump",
+      "Description": "Axe_X_Jump",
+      "IconLabel": "AirCrash",
+      "SkillSound": "HeavySwing",
+      "AnimName": "AirCrash_Astart",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 5.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 5.0,
+      "SuperArmorBreakLevel": 5.01,
+      "AttackType": "Airborne",
+      "ShoveAttck": 0,
+      "StartFrame": 0,
+      "EndFrame": 5,
+      "MoveRange": 100,
+      "HitBox": {
+        "Offset": {
+          "x": 16.0,
+          "y": 6.0
+        },
+        "Size": {
+          "x": 24.0,
+          "y": 12.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 50301,
+      "Name": "Axe_A",
+      "ClassName": "Axe_A_Idle",
+      "Description": "Axe_A",
+      "IconLabel": "AxeUpper_First",
+      "SkillSound": "HeavyQuickSwing",
+      "AnimName": "AxeUpper_First_Astart",
+      "ComboCount": 1,
+      "CoolTime": 2.0,
+      "Damage": 5.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 3.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 1,
+      "StartFrame": 5,
+      "EndFrame": 6,
+      "MoveRange": 6,
+      "HitBox": {
+        "Offset": {
+          "x": 7.0,
+          "y": 10.0
+        },
+        "Size": {
+          "x": 22.0,
+          "y": 20.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 50302,
+      "Name": "Axe_A_Idle_Second",
+      "ClassName": "Axe_A_Idle_Second",
+      "Description": "Axe_A_Idle_Second",
+      "IconLabel": "AxeUpper_Second",
+      "SkillSound": "HeavySwing",
+      "AnimName": "AxeUpper_Second_Astart",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 5.0,
+      "HitType": "Slash",
+      "SuperArmorLevel": 3.0,
+      "SuperArmorBreakLevel": 3.01,
+      "AttackType": "Airborne",
+      "ShoveAttck": 1,
+      "StartFrame": 6,
+      "EndFrame": 8,
+      "MoveRange": 8,
+      "HitBox": {
+        "Offset": {
+          "x": 10.0,
+          "y": 12.0
+        },
+        "Size": {
+          "x": 36.0,
+          "y": 24.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 50401,
+      "Name": "Axe_S_Idle",
+      "ClassName": "Axe_S_Idle",
+      "Description": "Axe_S_Idle",
+      "IconLabel": "Whirlwind",
+      "SkillSound": "HeavyQuickSwing",
+      "AnimName": "Whirlwind_Astart",
+      "ComboCount": 0,
+      "CoolTime": 2.0,
+      "Damage": 5.0,
+      "HitType": "Slash",
+      "SuperArmorLevel": 3.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 1,
+      "StartFrame": 8,
+      "EndFrame": 26,
+      "MoveRange": 32,
+      "HitBox": {
+        "Offset": {
+          "x": 2.0,
+          "y": 8.0
+        },
+        "Size": {
+          "x": 28.0,
+          "y": 16.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 50501,
+      "Name": "Axe_D_Idle",
+      "ClassName": "Axe_D_Idle",
+      "Description": "Axe_D_Idle",
+      "IconLabel": "DashCrash",
+      "SkillSound": "HeavySwing",
+      "AnimName": "DashCrash_Astart",
+      "ComboCount": 0,
+      "CoolTime": 2.0,
+      "Damage": 10.0,
+      "HitType": "Hit",
+      "SuperArmorLevel": 3.0,
+      "SuperArmorBreakLevel": 3.01,
+      "AttackType": "Airborne",
+      "ShoveAttck": 1,
+      "StartFrame": 4,
+      "EndFrame": 8,
+      "MoveRange": 32,
+      "HitBox": {
+        "Offset": {
+          "x": 20.0,
+          "y": 6.0
+        },
+        "Size": {
+          "x": 20.0,
+          "y": 12.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    }
+  ]
+}

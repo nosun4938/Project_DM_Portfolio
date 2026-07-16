@@ -1,0 +1,22 @@
+{
+  "npcs": [
+    {
+      "DataID": 700001,
+      "DescriptionTextID": "InformationBoard",
+      "PrefabLabel": "InformationBoard",
+      "AnimatorName": "NpcAnimationController",
+
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 4.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    }
+  ]
+}

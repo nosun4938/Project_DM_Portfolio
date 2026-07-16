@@ -1,0 +1,508 @@
+{
+  "skills": [
+    {
+      "DataId": 10001,
+      "Name": "공중회피",
+      "ClassName": "Sword_C_Airborne",
+      "Description": "공중회피",
+      "IconLabel": "Airial_Evasion",
+      "SkillSound": "Airial_Evasion",
+      "AnimName": "Airial_Evasion",
+      "ComboCount": 0,
+      "CoolTime": 10,
+      "Damage": 0,
+      "SuperArmorLevel": 10.0,
+      "SuperArmorBreakLevel": 0,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "x": 0,
+          "y": 0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20001,
+      "Name": "대검대쉬",
+      "ClassName": "Sword_Shift",
+      "Description": "대검대쉬",
+      "IconLabel": "Tumbling",
+      "SkillSound": "Tumbling",
+      "AnimName": "Tumbling",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 0,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "x": 0,
+          "y": 0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20101,
+      "Name": "대검공격-Idle",
+      "ClassName": "Sword_Z_Idle",
+      "Description": "대검공격-Idle",
+      "IconLabel": "Normal_Attack_First",
+      "SkillSound": "Normal_Attack_First",
+      "AnimName": "Normal_Attack_First",
+      "ComboCount": 1,
+      "CoolTime": 0.1,
+      "Damage": 10.0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20102,
+      "Name": "대검공격-Idle",
+      "ClassName": "Sword_Z_Idle_Second",
+      "Description": "대검공격-Idle",
+      "IconLabel": "Normal_Attack_Second",
+      "SkillSound": "Normal_Attack_Second",
+      "AnimName": "Normal_Attack_Second",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 10.0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20111,
+      "Name": "대검공격-Jump",
+      "ClassName": "Sword_Z_Jump",
+      "Description": "대검공격-Jump",
+      "IconLabel": "Jump_Attack",
+      "SkillSound": "Jump_Attack",
+      "AnimName": "Jump_Attack",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 10.0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 0,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20121,
+      "Name": "대검공격-Dash",
+      "ClassName": "Sword_Z_Dash",
+      "Description": "대검공격-Dash",
+      "IconLabel": "Dash_Upper",
+      "SkillSound": "Dash_Upper",
+      "AnimName": "Dash_Upper",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 10.0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Airborne",
+      "ShoveAttck": 1,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20201,
+      "Name": "대검발차기-Idle",
+      "ClassName": "Sword_X_Idle",
+      "Description": "대검공격-Dash",
+      "IconLabel": "Side_Kick",
+      "SkillSound": "Side_Kick",
+      "AnimName": "Side_Kick",
+      "ComboCount": 1,
+      "CoolTime": 0.1,
+      "Damage": 10.0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 1,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20202,
+      "Name": "대검발차기-Idle",
+      "ClassName": "Sword_X_Idle_Second",
+      "Description": "대검발차기-Idle",
+      "IconLabel": "Swiping_Kick",
+      "SkillSound": "Swiping_Kick",
+      "AnimName": "Swiping_Kick",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 10.0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 2,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20211,
+      "Name": "대검발차기-Jump",
+      "ClassName": "Sword_X_Jump",
+      "Description": "대검발차기-Jump",
+      "IconLabel": "Drop_Kick",
+      "SkillSound": "Drop_Kick",
+      "AnimName": "Drop_Kick",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 10.0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 2,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20301,
+      "Name": "대검A",
+      "ClassName": "Sword_A_Idle",
+      "Description": "대검A",
+      "IconLabel": "Triple_Slash_First",
+      "SkillSound": "Triple_Slash_First",
+      "AnimName": "Triple_Slash_First",
+      "ComboCount": 2,
+      "CoolTime": 2.0,
+      "Damage": 0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 1,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20302,
+      "Name": "대검A_Second",
+      "ClassName": "Sword_A_Idle_Second",
+      "Description": "대검A",
+      "IconLabel": "Triple_Slash_Second",
+      "SkillSound": "Triple_Slash_Second",
+      "AnimName": "Triple_Slash_Second",
+      "ComboCount": 1,
+      "CoolTime": 0.1,
+      "Damage": 0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Hitstun",
+      "ShoveAttck": 1,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20303,
+      "Name": "대검A_Third",
+      "ClassName": "Sword_A_Idle_Third",
+      "Description": "대검A",
+      "IconLabel": "Triple_Slash_Third",
+      "SkillSound": "Triple_Slash_Third",
+      "AnimName": "Triple_Slash_Third",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Airborne",
+      "ShoveAttck": 0,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20401,
+      "Name": "대검S",
+      "ClassName": "Sword_S_Idle",
+      "Description": "대검S",
+      "IconLabel": "Deep_Straight_First",
+      "SkillSound": "Deep_Straight_First",
+      "AnimName": "Deep_Straight_First",
+      "ComboCount": 1,
+      "CoolTime": 2.0,
+      "Damage": 0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 0,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "x": 0,
+          "y": 0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20402,
+      "Name": "대검S",
+      "ClassName": "Sword_S_Idle_Second",
+      "Description": "대검S",
+      "IconLabel": "Deep_Straight_Second",
+      "SkillSound": "Deep_Straight_Second",
+      "AnimName": "Deep_Straight_Second",
+      "ComboCount": 0,
+      "CoolTime": 2.0,
+      "Damage": 0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 2,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20501,
+      "Name": "대검D",
+      "ClassName": "Sword_D_Idle",
+      "Description": "대검D",
+      "IconLabel": "Rising_Slash_First",
+      "SkillSound": "Rising_Slash_First",
+      "AnimName": "Rising_Slash_First",
+      "ComboCount": 1,
+      "CoolTime": 2.0,
+      "Damage": 0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 1,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20502,
+      "Name": "대검D_Second",
+      "ClassName": "Sword_D_Idle_Second",
+      "Description": "대검A",
+      "IconLabel": "Rising_Slash_Second",
+      "SkillSound": "Rising_Slash_Second",
+      "AnimName": "Rising_Slash_Second",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Airborne",
+      "ShoveAttck": 2,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20601,
+      "Name": "대검F",
+      "ClassName": "Sword_F_Idle",
+      "Description": "대검F",
+      "IconLabel": "Finish_Attack_First",
+      "SkillSound": "Finish_Attack_First",
+      "AnimName": "Finish_Attack_First",
+      "ComboCount": 1,
+      "CoolTime": 2.0,
+      "Damage": 0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Stagger",
+      "ShoveAttck": 1,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    },
+    {
+      "DataId": 20602,
+      "Name": "대검F_Second",
+      "ClassName": "Sword_F_Idle_Second",
+      "Description": "대검F",
+      "IconLabel": "Finish_Attack_Second",
+      "SkillSound": "Finish_Attack_Second",
+      "AnimName": "Finish_Attack_Second",
+      "ComboCount": 0,
+      "CoolTime": 0.1,
+      "Damage": 0,
+      "SuperArmorLevel": 1.0,
+      "SuperArmorBreakLevel": 1.01,
+      "AttackType": "Airborne",
+      "ShoveAttck": 0,
+      "SkillRange": 0.0,
+      "HitBox": {
+        "Offset": {
+          "x": 1.0,
+          "y": 1.5
+        },
+        "Size": {
+          "x": 4.0,
+          "y": 3.0
+        },
+        "TargetLayer": "Enemy"
+      }
+    }
+  ]
+}
